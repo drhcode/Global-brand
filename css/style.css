@@ -199,3 +199,31 @@
   width: 35%;
   z-index: 10;
 }
+
+/**************/
+/* Section contact */
+/**************/
+
+.section-contact {
+  padding: 9.6rem 0;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  background-image: linear-gradient(to right, #39395f, #c4c4cf);
+
+  height: 50rem;
+}
+
+.contact-text-box {
+}
+
+.contact-img-box {
+  background-image: linear-gradient(to right, rbga(255, 255, 255, 0), rbga(255, 255, 255, 0),
+    url("../img/globalbrand6.jpg");
+  background-size: cover;
+  background-position: center;
+}
