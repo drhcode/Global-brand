@@ -1,0 +1,201 @@
+/* Header */
+/**************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e2ebf2;
+
+  /* this i am making beacuse i will make header sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/**************/
+/* Navigation */
+/**************/
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #39395f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #39395f;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #39395f;
+}
+
+/**************/
+/* First Section */
+/**************/
+
+.section-hero {
+  background-color: #e2ebf2;
+  padding: 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.customers {
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.customers img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #e2ebf2;
+}
+
+.customers img:last-child {
+  margin: 0;
+}
+
+.description-customers {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.description-customers span {
+  color: #39395f;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* Partner Section */
+
+.section-partner {
+  padding: 4.8rem 0 3.2rem 0;
+  /* background-color: #e2ebf2; */
+}
+
+.heading-partner {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 8rem;
+  filter: grayscale(100%);
+  opacity: 75%;
+}
+
+/**************/
+/* Section services */
+/**************/
+
+.section-services {
+  padding: 9.6rem 0;
+  background-color: #e2ebf2;
+}
+
+.step-number {
+  font-size: 8.5rem;
+  font-weight: 600;
+  color: #333;
+  opacity: 0.5;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.step-image-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-image-box::before,
+.step-image-box::after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+}
+
+.step-image-box::before {
+  width: 50%;
+  padding-bottom: 50%;
+  background-color: #39395f;
+  z-index: 1;
+}
+.step-image-box::after {
+  width: 40%;
+  padding-bottom: 40%;
+  background-color: #88889f;
+  z-index: 2;
+}
+
+.step-img {
+  width: 35%;
+  z-index: 10;
+}
