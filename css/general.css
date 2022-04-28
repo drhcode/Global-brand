@@ -121,6 +121,18 @@ body {
   background-color: #39395f;
 }
 
+.btn--form {
+  background-color: #39395f;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }

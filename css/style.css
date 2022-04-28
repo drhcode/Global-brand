@@ -159,16 +159,22 @@
   margin-bottom: 1.2rem;
 }
 
-.step-description {
+/* .step-description {
   font-size: 1.2rem;
   line-height: 1.8;
-}
+} */
 
 .step-image-box {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.step-text-box li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  list-style: circle;
 }
 
 .step-image-box::before,
@@ -215,8 +221,6 @@
   border-radius: 11px;
   background-image: linear-gradient(to right, #39395f, #c4c4cf);
   overflow: hidden;
-
-  height: 50rem;
 }
 
 .contact-text-box {
@@ -272,18 +276,4 @@
 
 .contact-form input:placeholder {
   color: #aaa;
-}
-
-.contact-form select {
-}
-
-.contact-form span {
-  width: 100%;
-  padding: 1.2rem;
-  font-size: 1.2rem;
-  font-family: inherit;
-  border: none;
-}
-
-.contact-form button {
 }
