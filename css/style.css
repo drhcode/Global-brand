@@ -214,16 +214,76 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   background-image: linear-gradient(to right, #39395f, #c4c4cf);
+  overflow: hidden;
 
   height: 50rem;
 }
 
 .contact-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #fff;
+}
+
+.contact .heading-secondary {
+  color: #fff;
+  margin-bottom: 3.2rem;
+  text-transform: uppercase;
+}
+
+.contact-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
 }
 
 .contact-img-box {
-  background-image: linear-gradient(to right, rbga(255, 255, 255, 0), rbga(255, 255, 255, 0),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.075), #c4c4cf),
     url("../img/globalbrand6.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.contact-form input,
+.contact-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.175);
+}
+
+.contact-form input:placeholder {
+  color: #aaa;
+}
+
+.contact-form select {
+}
+
+.contact-form span {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  border: none;
+}
+
+.contact-form button {
 }

@@ -160,9 +160,58 @@
       </section>
 
       <section class="section-contact">
-        <div class="container contact">
-          <div class="contact-text-box">text</div>
-          <div class="contact-img-box" role="img">img</div>
+        <div class="container">
+          <div class="contact">
+            <div class="contact-text-box">
+              <h2 class="heading-secondary">Get in touch with us</h2>
+              <p class="contact-text">Get in touch with us</p>
+              <form action="#" class="contact-form">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Angelina Jolie"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="phone">Phone Number</label>
+                  <input id="phone" type="phone" placeholder="Phone" required />
+                </div>
+                <div>
+                  <label for="">Request</label>
+                  <input type="description" placeholder="Your request" />
+                </div>
+                <div>
+                  <label for="select-where">
+                    Where did you hear about us?</label
+                  >
+                  <select id="select-where">
+                    <option value="friends">Friends and family</option>
+                    <option value="Youtube">On youtube</option>
+                    <option value="search engines">Google</option>
+                    <option value="social network">Social Networks</option>
+                  </select>
+                </div>
+                <button class="btn">Submit</button>
+              </form>
+            </div>
+            <div
+              class="contact-img-box"
+              role="img"
+              aria-label="our preferred image"
+            ></div>
+          </div>
         </div>
       </section>
     </main>

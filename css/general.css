@@ -82,7 +82,7 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -91,6 +91,11 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 15px;
   transition: background-color 2s;
+
+  /* only for .btn class */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn--full:link,
