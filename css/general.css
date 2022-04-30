@@ -133,6 +133,11 @@ body {
   color: #555;
 }
 
+.contact *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #39395f;
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
@@ -146,7 +151,7 @@ body {
 .grid {
   display: grid;
   column-gap: 6.4rem;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
   align-items: center;
 }
 
@@ -159,6 +164,10 @@ body {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
