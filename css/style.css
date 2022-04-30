@@ -59,7 +59,7 @@
 /* First Section */
 /**************/
 
-.section-hero {
+.first-section {
   background-color: #e2ebf2;
   padding: 9.6rem 0;
 }
@@ -211,7 +211,7 @@
 /**************/
 
 .section-contact {
-  padding: 9.6rem 0;
+  padding: 9.6rem 0 12.8rem;
 }
 
 .contact {
@@ -283,7 +283,12 @@
 /**************/
 
 .footer {
-  padding: 9.6rem 0;
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
 }
 
 .logo-col {
@@ -308,7 +313,7 @@
 }
 
 .copyright {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #767676;
   line-height: 1.6;
   margin-top: auto;
@@ -317,7 +322,7 @@
 .contacts {
   font-style: normal;
   font-size: 1.6rem;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .address {
@@ -327,7 +332,7 @@
 .footer-heading {
   font-size: 1.8rem;
   font-weight: 300;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .footer-nav {
@@ -340,6 +345,7 @@
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
+  font-weight: 200;
   font-size: 1.2rem;
   color: #767676;
   transition: all 0.3s;
